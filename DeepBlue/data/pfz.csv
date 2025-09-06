@@ -1,2 +1,4 @@
-# pfz.csv
-# Placeholder for PFZ data
+zone_id,lat,lon
+Z001,13.1000,80.2800
+Z001,13.1010,80.2810
+Z001,13.1020,80.2820

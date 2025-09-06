@@ -1,26 +1,31 @@
 
+
 import pandas as pd
 import os
 
 class AISReplay:
-	def __init__(self, csv_path=None):
-		if csv_path is None:
-			csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'ais.csv')
-		self.df = pd.read_csv(csv_path)
-		self.index = 0
-		self.total = len(self.df)
+	def __init__(self, filepath="data/ais.csv", sample_size=5000):
+		# Load AIS data
+		self.df = pd.read_csv(filepath)
 
-	def get_next(self):
-		if self.total == 0:
-			return None
+		# Optional: only take a random sample for faster replay
+		if sample_size and len(self.df) > sample_size:
+			self.df = self.df.sample(sample_size).reset_index(drop=True)
+
+		# Reset index for replay loop
+		self.index = 0
+
+	def next_position(self):
+		# Get current row
 		row = self.df.iloc[self.index]
-		result = {
-			'vessel_id': row['vessel_id'],
-			'timestamp': row['timestamp'],
-			'lat': row['lat'],
-			'lon': row['lon']
+		self.index = (self.index + 1) % len(self.df)
+
+		return {
+			"vessel_id": row["vessel_id"],
+			"timestamp": row["timestamp"],
+			"lat": row["lat"],
+			"lon": row["lon"],
+			"vessel_name": row.get("vessel_name", "Unknown") if hasattr(row, 'get') else row["vessel_name"] if "vessel_name" in row else "Unknown",
+			"sog": row.get("sog", 0) if hasattr(row, 'get') else row["sog"] if "sog" in row else 0,
+			"cog": row.get("cog", 0) if hasattr(row, 'get') else row["cog"] if "cog" in row else 0,
 		}
-		self.index += 1
-		if self.index >= self.total:
-			self.index = 0
-		return result

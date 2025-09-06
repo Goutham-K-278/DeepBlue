@@ -8,7 +8,7 @@ replay = AISReplay()
 
 @app.get("/vessels")
 def get_vessel():
-    return replay.get_next()
+    return replay.next_position()
 
 @app.get("/pfz")
 def pfz():

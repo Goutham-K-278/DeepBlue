@@ -1,7 +1,9 @@
 
+
 from fastapi import FastAPI
 from .replay import AISReplay
 from .pfz_data import get_pfz
+from ai.detect import run_detection
 
 app = FastAPI()
 replay = AISReplay()
@@ -16,7 +18,8 @@ def pfz():
 
 @app.get("/detect-ship")
 def detect_ship():
-    return {"detected": True, "bbox": [100, 150, 200, 250]}
+    result = run_detection()
+    return result
 
 @app.post("/send-alert")
 def send_alert():

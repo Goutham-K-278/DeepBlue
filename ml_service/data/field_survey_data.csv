@@ -1,0 +1,51 @@
+survey_id,timestamp,lat,lng,observer,sea_state,visibility_km,species_observed,notes
+SURV001,2025-09-10T00:00:00Z,12.34,45.67,TeamA,3,15,"Tuna;Dolphin",Calm morning
+SURV002,2025-09-10T00:30:00Z,12.35,45.68,TeamA,3,14,"Tuna;Shark",Slight swell
+SURV003,2025-09-10T01:00:00Z,12.36,45.69,TeamA,2,16,"Tuna;Mackerel",Clear skies
+SURV004,2025-09-10T01:30:00Z,12.37,45.70,TeamA,2,15,"Dolphin;Sea Turtle",Sunny
+SURV005,2025-09-10T02:00:00Z,12.38,45.71,TeamB,3,14,"Tuna;Squid",Light breeze
+SURV006,2025-09-10T02:30:00Z,12.39,45.72,TeamB,3,13,"Mackerel;Sea Turtle",Steady wind
+SURV007,2025-09-10T03:00:00Z,12.40,45.73,TeamB,4,12,"Shark;Tuna",Choppy
+SURV008,2025-09-10T03:30:00Z,12.41,45.74,TeamB,4,11,"Tuna;Dolphin",Choppy
+SURV009,2025-09-10T04:00:00Z,12.42,45.75,TeamC,5,10,"Shark;Dolphin",Building seas
+SURV010,2025-09-10T04:30:00Z,12.43,45.76,TeamC,5,9,"Sea Turtle;Mackerel",Rougher
+SURV011,2025-09-10T05:00:00Z,12.44,45.77,TeamC,4,10,"Tuna;Dolphin",Improving
+SURV012,2025-09-10T05:30:00Z,12.45,45.78,TeamC,4,11,"Tuna;Sea Turtle",Cloud edge
+SURV013,2025-09-10T06:00:00Z,12.46,45.79,TeamD,3,12,"Tuna;Shark",Stable
+SURV014,2025-09-10T06:30:00Z,12.47,45.80,TeamD,3,13,"Mackerel;Squid",Smooth
+SURV015,2025-09-10T07:00:00Z,12.48,45.81,TeamD,2,14,"Dolphin;Sea Turtle",Clear
+SURV016,2025-09-10T07:30:00Z,12.49,45.82,TeamD,2,15,"Tuna;Mackerel",Bright
+SURV017,2025-09-10T08:00:00Z,12.50,45.83,TeamE,2,16,"Tuna;Dolphin",Bright
+SURV018,2025-09-10T08:30:00Z,12.51,45.84,TeamE,3,15,"Shark;Mackerel",Wind shift
+SURV019,2025-09-10T09:00:00Z,12.52,45.85,TeamE,3,14,"Tuna;Sea Turtle",Calm patch
+SURV020,2025-09-10T09:30:00Z,12.53,45.86,TeamE,4,13,"Dolphin;Squid",Patchy chop
+SURV021,2025-09-10T10:00:00Z,12.54,45.87,TeamF,4,12,"Tuna;Shark",Mixed
+SURV022,2025-09-10T10:30:00Z,12.55,45.88,TeamF,5,11,"Sea Turtle;Mackerel",Spray
+SURV023,2025-09-10T11:00:00Z,12.56,45.89,TeamF,5,10,"Tuna;Dolphin",Hazy
+SURV024,2025-09-10T11:30:00Z,12.57,45.90,TeamF,4,11,"Mackerel;Squid",Improving
+SURV025,2025-09-10T12:00:00Z,12.58,45.91,TeamG,3,12,"Tuna;Mackerel",Calm
+SURV026,2025-09-10T12:30:00Z,12.59,45.92,TeamG,3,13,"Dolphin;Sea Turtle",Calm
+SURV027,2025-09-10T13:00:00Z,12.60,45.93,TeamG,3,14,"Tuna;Shark",Light wind
+SURV028,2025-09-10T13:30:00Z,12.61,45.94,TeamG,4,13,"Squid;Mackerel",Chop
+SURV029,2025-09-10T14:00:00Z,12.62,45.95,TeamG,4,12,"Tuna;Dolphin",Some swell
+SURV030,2025-09-10T14:30:00Z,12.63,45.96,TeamG,5,11,"Shark;Sea Turtle",Swell
+SURV031,2025-09-10T15:00:00Z,12.64,45.97,TeamH,5,10,"Tuna;Mackerel",Low vis
+SURV032,2025-09-10T15:30:00Z,12.65,45.98,TeamH,4,11,"Dolphin;Sea Turtle",Improving
+SURV033,2025-09-10T16:00:00Z,12.66,45.99,TeamH,4,12,"Tuna;Shark",Good
+SURV034,2025-09-10T16:30:00Z,12.67,46.00,TeamH,3,13,"Mackerel;Squid",Better
+SURV035,2025-09-10T17:00:00Z,12.68,46.01,TeamH,3,14,"Tuna;Dolphin",Clear
+SURV036,2025-09-10T17:30:00Z,12.69,46.02,TeamH,2,15,"Shark;Sea Turtle",Clear
+SURV037,2025-09-10T18:00:00Z,12.70,46.03,TeamI,2,16,"Tuna;Squid",Bright
+SURV038,2025-09-10T18:30:00Z,12.71,46.04,TeamI,2,16,"Dolphin;Sea Turtle",Clear
+SURV039,2025-09-10T19:00:00Z,12.72,46.05,TeamI,3,15,"Tuna;Mackerel",Still
+SURV040,2025-09-10T19:30:00Z,12.73,46.06,TeamI,3,14,"Shark;Dolphin",Edge of fog
+SURV041,2025-09-10T20:00:00Z,12.74,46.07,TeamI,4,13,"Tuna;Sea Turtle",Haze
+SURV042,2025-09-10T20:30:00Z,12.75,46.08,TeamI,4,12,"Mackerel;Squid",Settling
+SURV043,2025-09-10T21:00:00Z,12.76,46.09,TeamI,5,11,"Tuna;Shark",Spray
+SURV044,2025-09-10T21:30:00Z,12.77,46.10,TeamI,5,10,"Dolphin;Sea Turtle",Wind picking up
+SURV045,2025-09-10T22:00:00Z,12.78,46.11,TeamI,4,11,"Tuna;Mackerel",Cloud band
+SURV046,2025-09-10T22:30:00Z,12.79,46.12,TeamI,4,11,"Shark;Sea Turtle",Darkening
+SURV047,2025-09-10T23:00:00Z,12.80,46.13,TeamI,3,12,"Tuna;Dolphin",Evening calm
+SURV048,2025-09-10T23:30:00Z,12.81,46.14,TeamI,3,12,"Mackerel;Squid",Evening calm
+SURV049,2025-09-10T23:45:00Z,12.82,46.15,TeamI,3,13,"Tuna;Sea Turtle",Evening calm
+SURV050,2025-09-10T23:55:00Z,12.83,46.16,TeamI,3,13,"Dolphin;Shark",Evening calm

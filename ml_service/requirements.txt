@@ -1,0 +1,7 @@
+# DeepBlue ML Service requirements
+fastapi
+uvicorn
+sqlalchemy
+pandas
+scikit-learn
+ultralytics

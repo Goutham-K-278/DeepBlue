@@ -1,0 +1,51 @@
+sample_id,timestamp,lat,lng,depth_m,detected_species,rare_species,diversity_index
+EDNA001,2025-09-10T00:00:00Z,12.34,45.67,10,"Tuna;Dolphin;Shark;Mackerel","Blue Whale",0.82
+EDNA002,2025-09-10T00:30:00Z,12.35,45.68,12,"Tuna;Dolphin;Mackerel","",0.74
+EDNA003,2025-09-10T01:00:00Z,12.36,45.69,11,"Tuna;Shark;Squid","",0.69
+EDNA004,2025-09-10T01:30:00Z,12.37,45.70,13,"Tuna;Dolphin;Shark;Sea Turtle","Blue Whale",0.88
+EDNA005,2025-09-10T02:00:00Z,12.38,45.71,15,"Tuna;Mackerel;Squid","",0.61
+EDNA006,2025-09-10T02:30:00Z,12.39,45.72,14,"Tuna;Dolphin;Mackerel;Sea Turtle","",0.77
+EDNA007,2025-09-10T03:00:00Z,12.40,45.73,16,"Tuna;Dolphin;Squid","",0.73
+EDNA008,2025-09-10T03:30:00Z,12.41,45.74,18,"Tuna;Shark;Mackerel;Sea Turtle","Blue Whale",0.85
+EDNA009,2025-09-10T04:00:00Z,12.42,45.75,17,"Tuna;Mackerel;Squid","",0.66
+EDNA010,2025-09-10T04:30:00Z,12.43,45.76,19,"Tuna;Dolphin;Shark","Blue Whale",0.81
+EDNA011,2025-09-10T05:00:00Z,12.44,45.77,20,"Tuna;Dolphin;Shark;Squid","",0.79
+EDNA012,2025-09-10T05:30:00Z,12.45,45.78,22,"Tuna;Mackerel;Sea Turtle","",0.63
+EDNA013,2025-09-10T06:00:00Z,12.46,45.79,21,"Tuna;Dolphin;Mackerel;Squid","Blue Whale",0.84
+EDNA014,2025-09-10T06:30:00Z,12.47,45.80,23,"Tuna;Dolphin;Shark;Sea Turtle","",0.87
+EDNA015,2025-09-10T07:00:00Z,12.48,45.81,25,"Tuna;Shark;Mackerel","",0.71
+EDNA016,2025-09-10T07:30:00Z,12.49,45.82,24,"Tuna;Dolphin;Sea Turtle","Blue Whale",0.83
+EDNA017,2025-09-10T08:00:00Z,12.50,45.83,26,"Tuna;Mackerel;Squid","",0.65
+EDNA018,2025-09-10T08:30:00Z,12.51,45.84,27,"Tuna;Dolphin;Mackerel;Sea Turtle","Blue Whale",0.86
+EDNA019,2025-09-10T09:00:00Z,12.52,45.85,28,"Tuna;Dolphin;Shark;Squid","",0.78
+EDNA020,2025-09-10T09:30:00Z,12.53,45.86,30,"Tuna;Shark;Sea Turtle","",0.72
+EDNA021,2025-09-10T10:00:00Z,12.54,45.87,29,"Tuna;Dolphin;Mackerel;Squid","",0.81
+EDNA022,2025-09-10T10:30:00Z,12.55,45.88,31,"Tuna;Dolphin;Shark","Blue Whale",0.82
+EDNA023,2025-09-10T11:00:00Z,12.56,45.89,33,"Tuna;Shark;Mackerel;Sea Turtle","",0.76
+EDNA024,2025-09-10T11:30:00Z,12.57,45.90,32,"Tuna;Dolphin;Mackerel","",0.70
+EDNA025,2025-09-10T12:00:00Z,12.58,45.91,34,"Tuna;Dolphin;Shark;Sea Turtle","Blue Whale",0.88
+EDNA026,2025-09-10T12:30:00Z,12.59,45.92,35,"Tuna;Mackerel;Squid","",0.67
+EDNA027,2025-09-10T13:00:00Z,12.60,45.93,36,"Tuna;Dolphin;Mackerel;Sea Turtle","Blue Whale",0.85
+EDNA028,2025-09-10T13:30:00Z,12.61,45.94,38,"Tuna;Dolphin;Shark;Squid","",0.79
+EDNA029,2025-09-10T14:00:00Z,12.62,45.95,37,"Tuna;Shark;Mackerel;Sea Turtle","",0.75
+EDNA030,2025-09-10T14:30:00Z,12.63,45.96,39,"Tuna;Dolphin;Mackerel","Blue Whale",0.84
+EDNA031,2025-09-10T15:00:00Z,12.64,45.97,40,"Tuna;Dolphin;Shark;Sea Turtle","",0.87
+EDNA032,2025-09-10T15:30:00Z,12.65,45.98,42,"Tuna;Shark;Mackerel","",0.71
+EDNA033,2025-09-10T16:00:00Z,12.66,45.99,41,"Tuna;Dolphin;Mackerel;Sea Turtle","Blue Whale",0.86
+EDNA034,2025-09-10T16:30:00Z,12.67,46.00,43,"Tuna;Dolphin;Shark;Squid","",0.80
+EDNA035,2025-09-10T17:00:00Z,12.68,46.01,45,"Tuna;Shark;Mackerel;Sea Turtle","",0.74
+EDNA036,2025-09-10T17:30:00Z,12.69,46.02,44,"Tuna;Dolphin;Mackerel","",0.68
+EDNA037,2025-09-10T18:00:00Z,12.70,46.03,46,"Tuna;Dolphin;Shark;Sea Turtle","Blue Whale",0.89
+EDNA038,2025-09-10T18:30:00Z,12.71,46.04,47,"Tuna;Mackerel;Squid","",0.66
+EDNA039,2025-09-10T19:00:00Z,12.72,46.05,48,"Tuna;Dolphin;Mackerel;Sea Turtle","Blue Whale",0.85
+EDNA040,2025-09-10T19:30:00Z,12.73,46.06,50,"Tuna;Dolphin;Shark;Squid","",0.79
+EDNA041,2025-09-10T20:00:00Z,12.74,46.07,49,"Tuna;Shark;Mackerel;Sea Turtle","",0.73
+EDNA042,2025-09-10T20:30:00Z,12.75,46.08,51,"Tuna;Dolphin;Mackerel","Blue Whale",0.84
+EDNA043,2025-09-10T21:00:00Z,12.76,46.09,52,"Tuna;Dolphin;Shark;Sea Turtle","",0.88
+EDNA044,2025-09-10T21:30:00Z,12.77,46.10,54,"Tuna;Shark;Mackerel","",0.72
+EDNA045,2025-09-10T22:00:00Z,12.78,46.11,53,"Tuna;Dolphin;Mackerel;Squid","",0.78
+EDNA046,2025-09-10T22:30:00Z,12.79,46.12,55,"Tuna;Dolphin;Shark;Sea Turtle","Blue Whale",0.87
+EDNA047,2025-09-10T23:00:00Z,12.80,46.13,56,"Tuna;Shark;Mackerel;Sea Turtle","",0.75
+EDNA048,2025-09-10T23:30:00Z,12.81,46.14,58,"Tuna;Dolphin;Mackerel","Blue Whale",0.85
+EDNA049,2025-09-10T23:45:00Z,12.82,46.15,59,"Tuna;Dolphin;Shark;Squid","",0.80
+EDNA050,2025-09-10T23:55:00Z,12.83,46.16,60,"Tuna;Shark;Mackerel;Sea Turtle","Blue Whale",0.83

@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 // Routes
+
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/vessels', require('./routes/vessels'));
 app.use('/api/pfz', require('./routes/pfz'));
@@ -18,6 +19,7 @@ app.use('/api/alerts', require('./routes/alerts'));
 app.use('/api/species', require('./routes/species'));
 app.use('/api/upload', require('./routes/upload'));
 app.use('/api/reports', require('./routes/reports'));
+app.use('/api/ml', require('./routes/mlRoutes'));
 
 // Error handler
 app.use(require('./middleware/errorHandler'));

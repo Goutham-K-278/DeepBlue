@@ -7,6 +7,7 @@ const seed = async () => {
   await sequelize.sync({ force: true });
 
   await User.create({ username: 'admin', email: 'admin@deepblue.com', password: await bcrypt.hash('admin123', 10), role: 'admin' });
+  await User.create({ username: 'deepblue', email: 'deepblue@gmail.com', password: await bcrypt.hash('deepblue08', 10), role: 'admin' });
   await Vessel.bulkCreate([
     { lat: 12.34, lng: 45.67, confidence: 98, status: 'Active' },
     { lat: 13.78, lng: 46.24, confidence: 92, status: 'Active' },

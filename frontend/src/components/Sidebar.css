@@ -1,0 +1,58 @@
+.sidebar {
+  width: 250px;
+  background: linear-gradient(to bottom, #1a73e8, #0b5394);
+  color: white;
+  padding: 20px 0;
+  height: 100vh;
+  position: fixed;
+  overflow-y: auto;
+}
+.logo {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+.logo h1 {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo i {
+  margin-right: 10px;
+  font-size: 28px;
+}
+.nav-section {
+  margin-bottom: 25px;
+}
+.nav-section h3 {
+  padding: 0 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.nav-item {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-left: 4px solid transparent;
+}
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-item.active {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 4px solid #34a853;
+}
+.nav-item i {
+  margin-right: 12px;
+  font-size: 18px;
+}
+.nav-item span {
+  font-size: 16px;
+}

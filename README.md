@@ -90,6 +90,3 @@ npm run dev
 - ML/data integration: DeepBlue project
 
 ---
-
-## License
-MIT
